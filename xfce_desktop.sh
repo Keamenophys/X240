@@ -60,7 +60,7 @@ mv ttys /etc/
 # sed -i '' 's/current_theme       default/current_theme       fbsd/g' /usr/local/etc/slim.conf
 
 ## CREATES .xinitrc SCRIPT FOR A REGULAR DESKTOP USER
-echo read -p "Want to enable XFCE for a regular user? (yes/no): " X;
+echo ; read -p "Want to enable XFCE for a regular user? (yes/no): " X;
 echo ""
 if [ "$X" = "yes" ]
 then
