@@ -11,6 +11,13 @@ add path 'ugen*'     mode 0644 group operator
 add path 'usb*'      mode 0644 group operator
 add path 'video*'    mode 0664 group operator
 add path 'cuse*'     mode 0644 group operator
+add path 'cuaU*'     mode 0660 group operator
+add path 'uhid*'     mode 0660 group operator
+add path 'usbctl*'   mode 0660 group operator
+add path 'usb/*'     mode 0660 group operator
+add path 'ng_ubt*'   mode 0660 group operator
+add path 'mmcsd*'    mode 0660 group operator
+
 add path 'lpt*'      mode 0660 group cups
 add path 'ulpt*'     mode 0660 group cups
 add path 'unlpt*'    mode 0660 group cups
